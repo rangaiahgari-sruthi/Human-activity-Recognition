@@ -4,15 +4,20 @@ Research in the field of Human Activity Recognition (HAR) has gained momentum ov
 
 This study also proposes the use of location information in order to enhance the performance. The addition of location information has improved the accuracy of the model with every algorithm. Only accelerometer sensor data is used. This is because the type of sensors embedded in a smartwatch may vary from product to product. Although the accuracy can be expected to increase with the increase in the number of sensors, the smartwatch is limited in size and weight. Accelerometer is well suited for measuring hand movements and is built into all smartwatches that are available in market today. In this study the importance of accelerometer data over gyroscope is also shown.
 
-2 models with/without location are performed.
-## The algorithms used are:
+2 models - with/without location are performed.
+### The algorithms used
 - Support Vector Machine: ThunderSVM
 - Decision Tree: Sklearn
 - Random Forest: Sklearn
 - Artificial Neural Network: Keras. Hidden Layers 1-8
 - SMOTE: imblearn, for balancing datasets
 
-## Accuracy achieved: 
+### Results and inferences
+- Accelerometer sensor data outperforms gyroscope.
+- Location information enhanced performance in every algorithm.
+- Accuracy increased till layer 4 of ANN, after which it gradually decreased.
+
+### Accuracy achieved
 95% for with location model, Random Forest algorithm
 
 
