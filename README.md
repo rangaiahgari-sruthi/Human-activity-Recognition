@@ -18,6 +18,6 @@ This study also proposes the use of location information in order to enhance the
 - Accuracy increased till layer 4 of ANN, after which it gradually decreased.
 
 ### Accuracy achieved
-95% for with location model, Random Forest algorithm
+95% for with location model, Random Forest algorithm 
 
 
